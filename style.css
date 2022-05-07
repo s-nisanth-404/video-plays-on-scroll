@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  height: 100vh;
+}
+
+header video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+header h1 {
+  position: absolute;
+  top: 22%;
+  transform: translate(0%, -50%);
+  text-align: center;
+  font-size: 75px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+footer {
+  height: 100vh;
+  background-color: whitesmoke;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+footer h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 75px;
+  cursor: default;
+}
